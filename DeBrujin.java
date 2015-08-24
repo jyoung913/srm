@@ -38,6 +38,12 @@ public class DeBrujin {
     }
     static private HashSet<String> visited;
 
+
+    /**
+     * @param alphabet list of distinct characters allowed
+     * @param len      total length of each word
+     * @return         a 'De Brujin Path' - a circular string containing all combinations in a compressed way
+     */
     private static String getDeBrujin(char[] alphabet, int len) {
         --len;
         int m = alphabet.length;

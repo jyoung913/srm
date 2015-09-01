@@ -74,6 +74,6 @@ public class DeBrujin {
     }
 
     public static void main(String[] args) {
-        System.out.println(getDeBrujin("abcd".toCharArray(), 2));
+        System.out.println(getDeBrujin("abcd".toCharArray(), 6));
     }
 }

@@ -3,6 +3,6 @@
  */
 public class PaintTheRoom {
     public String canPaintEvenly(int R, int C, int K) {
-
+        return "";
     }
 }
